@@ -6,7 +6,7 @@
 //  Copyright © 2019 Kayla Reap. All rights reserved.
 //
 
-import Foundation
+
 
 func greet(person:String) -> String {
     let greeting = "Hello, " + person + "!"

@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+func greet(person:String) -> String {
+    let greeting = "Hello, " + person + "!"
+    return greeting
+}
+
+print(greet(person: "Karen"))
 
